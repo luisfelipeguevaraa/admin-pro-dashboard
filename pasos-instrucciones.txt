@@ -1,0 +1,38 @@
+- componentes
+servicios/providers
+guards / protectores
+Directivas
+
+404     Cualquier ruta no existente dirige aqui
+login   toda la parte del login y registro
+pages   
+    component       componente reutilizable personalizado
+    form               
+    icons
+    starter
+    table           paginas que realizen tareas especificas
+shared  todos los componentes usados
+  sidebar
+  header
+signup
+
+pages-routing.module.ts    SubRutas
+pages.module.ts            modulo propio
+
+
+-s --skip-tests=true
+--crear componentes login
+ng g c login --skip-tests=true -s
+
+
+ng g s services/shared --skip-tests=true
+ng g s services/sidebar --skip-tests=true
+
+--flat                  :crea el componente en la misma carpeta
+-s                      :estilo en la misma linea
+--skip-tests=true       :sin test
+
+ng g c pages/pages --flat -s --skip-tests=true 
+
+
+ng g c login/register --flat --skip-tests=true 
