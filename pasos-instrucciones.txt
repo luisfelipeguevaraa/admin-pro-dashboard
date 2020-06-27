@@ -36,3 +36,8 @@ ng g c pages/pages --flat -s --skip-tests=true
 
 
 ng g c login/register --flat --skip-tests=true 
+
+
+
+para saltarse la importacion
+ng g c components/graficoDona -s --skip-tests=true --skip-import=true
