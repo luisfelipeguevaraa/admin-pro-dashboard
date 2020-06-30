@@ -41,3 +41,28 @@ ng g c login/register --flat --skip-tests=true
 
 para saltarse la importacion
 ng g c components/graficoDona -s --skip-tests=true --skip-import=true
+
+
+en git
+para agregar tag 
+git tag -a v1.1.0 -m "Version Input, Ouput y ViewChild"
+
+git tag
+
+git push --tags
+
+
+ng g c pages/accountSettings -m="pages/pages.module.ts" --skip-tests=true -s
+
+// -m -> modulo
+
+
+//crear un nuevo servicios
+ng g s services/settings  --skip-tests=true
+
+AGREGAR EL SERVICE EN EL MODULO EN ANGULAR 9 0 10 NO FUNCIONA -m="app.module.ts"
+
+
+
+// generar un modulo para los servicios
+ng g m services/service
