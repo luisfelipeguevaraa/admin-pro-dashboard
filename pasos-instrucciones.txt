@@ -66,3 +66,6 @@ AGREGAR EL SERVICE EN EL MODULO EN ANGULAR 9 0 10 NO FUNCIONA -m="app.module.ts"
 
 // generar un modulo para los servicios
 ng g m services/service
+
+
+ng g c pages/promesas --skip-tests=true -s
